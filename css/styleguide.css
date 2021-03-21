@@ -1,0 +1,12 @@
+.content-container {
+  padding-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 6rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
