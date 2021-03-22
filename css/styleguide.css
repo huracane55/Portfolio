@@ -1,12 +1,25 @@
 body {
   background-color: #DADADA;
   color: #202020;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  font-family: lato;
+  font-size: 36px;
   padding-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
 }
 
 p {
