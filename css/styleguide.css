@@ -1,5 +1,12 @@
 body {
   background-color: #DADADA;
+  color: #202020;
+}
+
+h2 {
+  font-family: lato;
+  padding-bottom: 0.5rem;
+
 }
 
 p {
@@ -8,7 +15,6 @@ p {
   word-wrap: break-word;
   display: block;
   margin: 0;
-
 }
 
 .content-container {
@@ -24,26 +30,26 @@ p {
   border-top-color: black;
 }
 
-.colorpalette{
-  padding: 1.5rem;
-}
-
 .bar1 {
+  padding: 1rem;
   background-color: black;
   color: white;
 }
 
 .bar2 {
+  padding: 1rem;
   background-color: white;
   color: black;
 }
 
 .bar3 {
+  padding: 1rem;
   background-color: #DADADA;
   color: black;
 }
 
 .bar4 {
+  padding: 1rem;
   background-color: #D74A3A;
   color: white;
 }
