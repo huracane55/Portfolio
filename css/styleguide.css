@@ -1,3 +1,4 @@
+/* Transferable CSS below */
 body {
   background-color: #DADADA;
   color: #202020;
@@ -67,7 +68,9 @@ nav li a:hover {
   width: 100%;
   text-decoration: none;
 }
+/* End of transferable CSS */
 
+/* Style Guide specific CSS below */
 .content-container {
   padding-top: 6rem;
   margin-left: 3rem;
@@ -104,3 +107,4 @@ nav li a:hover {
   background-color: #D74A3A;
   color: white;
 }
+/* End of Style Guide specific CSS */
