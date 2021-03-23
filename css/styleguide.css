@@ -1,8 +1,9 @@
 /* Transferable CSS below */
 body {
-  background-color: #DADADA;
+  background-color: #EEEEEE;
   color: #202020;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -35,7 +36,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgba(255,255,255,0.6);
+  background-color: #F6F6F6;
   position: fixed;
   width: 100%;
   margin: -0.5rem;
@@ -65,6 +66,22 @@ nav li a:hover {
   background-color:white;
 }
 
+footer {
+  display: block;
+  padding: 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.copyright {
+  margin-top: 0.75em;
+  padding-top: 0.75em;
+  margin-bottom: -1.25em;
+  padding-bottom: -1.25em;
+  border-top: 5px solid #e0e0e0;
+  text-align: center;
+}
 /* End of transferable CSS */
 
 /* Style Guide specific CSS below */
@@ -95,7 +112,7 @@ nav li a:hover {
 
 .bar3 {
   padding: 1rem;
-  background-color: #DADADA;
+  background-color: #EEEEEE;
   color: black;
 }
 
