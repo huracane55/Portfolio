@@ -1,6 +1,6 @@
 /* Transferable CSS below */
 body {
-  background-color: #EEEEEE;
+  background-color: #E4E4E4;
   color: #202020;
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -32,7 +32,7 @@ p {
   margin: 0;
 }
 
-nav {
+.nav-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,7 +79,7 @@ footer {
   padding-top: 0.75em;
   margin-bottom: -1.25em;
   padding-bottom: -1.25em;
-  border-top: 5px solid #e0e0e0;
+  border-top: 5px solid #F6F6F6;
   text-align: center;
 }
 /* End of transferable CSS */
@@ -112,7 +112,7 @@ footer {
 
 .bar3 {
   padding: 1rem;
-  background-color: #EEEEEE;
+  background-color: #E4E4E4;
   color: black;
 }
 
@@ -120,5 +120,19 @@ footer {
   padding: 1rem;
   background-color: #D74A3A;
   color: white;
+}
+
+.nav-template {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: -0.5rem;
+}
+
+.nav-template:hover{
+  background-color:white;
 }
 /* End of Style Guide specific CSS */
