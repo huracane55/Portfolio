@@ -1,4 +1,8 @@
 /* Transferable CSS below */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #E4E4E4;
   color: #202020;
@@ -65,6 +69,59 @@ nav li a {
 nav li a:hover {
   background-color:white;
 }
+
+.process-analysis {
+  display: flex;
+}
+
+.process-button{
+  margin: 3rem;
+  overflow: hidden;
+}
+
+.process-image img {
+  width: 20rem;
+  height: 20rem;
+  opacity: 0.6;
+}
+
+/*use for gallery images (below snippet)
+.process-image img:hover{
+  opacity: 1;
+  transition-duration: 600ms;
+}
+*/
+
+.process-text {
+  position: absolute;
+  transform: translateY(-20.25em);
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.process-text:hover {
+  box-shadow: 0 4px 8px 2px rgb(0 0 0);
+  transition-duration: 600ms;
+}
+
+.title, .titlew{
+  margin-top: -5rem;
+  color: #202020;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+  color: #202020;
+}
+
+.titlew, .descriptionw {
+  color: #FFF;
+}
+
 
 footer {
   display: block;
