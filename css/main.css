@@ -73,32 +73,45 @@ footer {
   width: 100%;
 }
 
-#process-analysis1 {
+#process-analysis1, #process-analysis2 {
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+#process-analysis1 {
   padding: 10rem 20% 2rem 20%;
 }
 
-#process-analysis1 h3 {
-  text-align: center;
+#process-analysis2{
+  padding: 5rem 20% 2rem 20%;
 }
 
-#process-analysis1 .content-imageset{
+#process-analysis1 h3, #process-analysis2 h3{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#process-analysis1 .content-imageset, #process-analysis2 .content-imageset{
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 2rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
 }
 
-#process-analysis1 .content-imageset-sub{
+#process-analysis1 .content-imageset-sub, #process-analysis2 .content-imageset-sub{
   margin: 1.5rem;
-
 }
 
 #process-analysis1 img{
   width: 419.4px;
   height: 600px;
+}
+
+#process-analysis2 img{
+  width: 436px;
+  height: 476.6px;
 }
 
 
