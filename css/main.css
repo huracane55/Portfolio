@@ -38,7 +38,7 @@ p {
   background-color: #F6F6F6;
   position: fixed;
   width: 100%;
-  margin: -0.5rem;
+  margin: -1.5rem;
 }
 
 nav li {
@@ -72,6 +72,35 @@ footer {
   margin-right: auto;
   width: 100%;
 }
+
+#process-analysis1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10rem 20% 2rem 20%;
+}
+
+#process-analysis1 h3 {
+  text-align: center;
+}
+
+#process-analysis1 .content-imageset{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem;
+}
+
+#process-analysis1 .content-imageset-sub{
+  margin: 1.5rem;
+
+}
+
+#process-analysis1 img{
+  width: 419.4px;
+  height: 600px;
+}
+
 
 .copyright {
   margin-top: 0.75em;
