@@ -325,43 +325,47 @@ div {
 }
 
 @media only screen and (max-width: 999px){
-  .about-me-content{
-    display: none;
-  }
 
   .about-me-header{
     position: absolute;
     margin-top: 6rem;
-    left: 40%;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  .about-me-content{
+    display: flex;
   }
 
   .about-me-pfp img{
     position: absolute;
-    left: 20%;
+    left: 3rem;
     top: 16rem;
     border-radius: 50%;
   }
 
   .about-me-text {
     position: absolute;
-    margin: 0px 0px 0 20rem;
-    left: 25%;
-    top: 15rem;
-
+    width: 350px;
+    left: 0;
+    top: 50%;
+    padding-top: 10rem;
+    padding-left: 1.5rem;
   }
 
   #profile-line {
     height: 5px;
-    width: 50rem;
+    width: 18rem;
     border-top: 3px solid #D74A3A;
     margin-bottom: 1rem;
     margin-top: -0.75rem;
   }
 
   .about-me-text-content{
+    font-size: 14px;
     margin-left: -0.25rem;
-    max-width: 35rem;
     letter-spacing: 0.1rem;
+    text-align: left;
   }
 }
 
@@ -449,7 +453,15 @@ div {
     position: relative;
     width: 100%;
     bottom: -25.5rem;
+  }
 
+  #footerabout{
+    position: absolute;
+    padding: 2rem 0;
+    margin-left: -0.5rem;
+    width: 100%;
+    bottom: -26rem;
+    overflow: hidden;
   }
 
   .copyright {
