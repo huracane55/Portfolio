@@ -297,7 +297,7 @@ div {
   .about-me-header{
     position: absolute;
     margin-top: 6rem;
-    left: 40%;
+    left: 42%;
   }
 
   .about-me-pfp img{
@@ -415,6 +415,105 @@ div {
   height: 476.6px;
 }
 
+/* contact page for PC */
+@media only screen and (min-width: 1000px){
+  .contact-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-header{
+    position: absolute;
+    margin-top: 6rem;
+  }
+
+  .contact-text {
+    position: absolute;
+    text-align: center;
+    top: 15rem;
+  }
+
+  .contact-text-content{
+    margin-left: -0.25rem;
+    max-width: 35rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .contact-text-email {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #B93B2D;
+  }
+
+  .contact-text ul{
+    list-style: none;
+  }
+
+  .contact-text li{
+    padding: 0.15rem;
+    color: #B93B2D;
+    letter-spacing: 0.5px;
+    margin-left: -2.25rem;
+  }
+
+  .twitter-link {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+/* contact page for mobile */
+@media only screen and (max-width: 999px){
+  .contact-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-header{
+    position: absolute;
+    margin-top: 10rem;
+  }
+
+  .contact-text {
+    position: absolute;
+    text-align: center;
+    top: 19rem;
+  }
+
+  .contact-text-content{
+    margin-left: -0.25rem;
+    max-width: 35rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .contact-text-email {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #B93B2D;
+  }
+
+  .contact-text ul{
+    list-style: none;
+
+  }
+
+  .contact-text li{
+    padding: 0.15rem;
+    color: #B93B2D;
+    letter-spacing: 0.5px;
+    margin-left: -2.25rem;
+  }
+
+  .twitter-link {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
 /* footers page for PC */
 @media only screen and (min-width: 1000px){
   footer {
@@ -468,6 +567,15 @@ div {
     margin-left: -0.5rem;
     width: 100%;
     bottom: -26rem;
+    overflow: hidden;
+  }
+
+  #footercontact{
+    position: absolute;
+    padding: 2rem 0;
+    margin-left: -0.5rem;
+    width: 100%;
+    bottom: -6rem;
     overflow: hidden;
   }
 
