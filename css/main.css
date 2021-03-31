@@ -376,7 +376,6 @@ div {
 
 /* gallery page for PC */
 @media only screen and (min-width: 1000px){
-
   .works-container{
     display: flex;
     justify-content: center;
@@ -421,56 +420,195 @@ div {
     padding: 0 0.5rem;
   }
 
+  .works-image:hover{
+    opacity: 0.7;
+    transition: 450ms;
+    cursor: pointer;
+  }
+
   .works-image img{
     height: 35rem;
     object-fit: cover;
+  }
+
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .process-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
 /* gallery page for mobile */
 @media only screen and (max-width: 999px){
+  .works-container{
+    display: flex;
+    justify-content: center;
+  }
 
+  .works-header{
+    position: absolute;
+    margin-top: 6rem;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  .works-content {
+    margin-top: 12.5rem;
+    padding: 0 3rem;
+  }
+
+  .works-content h2 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 24px;
+  }
+
+  .row {
+    display: block;
+    flex-wrap: wrap;
+    padding: 0 2px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  #year-line {
+    height: 5px;
+    width: 12rem;
+    border-top: 3px solid #D74A3A;
+    margin: -0.5rem 0 1.25rem 4rem;
+  }
+
+  .container-2021 {
+    margin-bottom: -1.75rem;
+  }
+
+  .works-image{
+    position: relative;
+
+    padding: 0 0.5rem;
+  }
+
+  .works-image:hover{
+    opacity: 0.7;
+    transition: 450ms;
+    cursor: pointer;
+  }
+
+  .works-image img{
+    height: 25rem;
+    object-fit: scale-down;
+  }
 }
 
-#process-analysis1, #process-analysis2 {
+
+.process-button{
+  margin: 3rem;
+  overflow: hidden;
+}
+
+.process-image img {
+  width: 20rem;
+  height: 20rem;
+  opacity: 0.85;
+}
+
+.process-text {
+  position: absolute;
+  transform: translateY(-20.25em);
+  width: 20rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
-  align-content: center;
-}
-
-#process-analysis1 {
-  padding: 10rem 20% 2rem 20%;
-}
-
-#process-analysis2{
-  padding: 5rem 20% 2rem 20%;
-}
-
-#process-analysis1 h3, #process-analysis2 h3{
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-#process-analysis1 .content-imageset, #process-analysis2 .content-imageset{
-  display: flex;
   justify-content: center;
-  align-content: center;
-  margin: 1rem;
-  margin-bottom: 3rem;
+  text-align: center;
 }
 
-#process-analysis1 .content-imageset-sub, #process-analysis2 .content-imageset-sub{
-  margin: 1.5rem;
+.process-text:hover {
+  box-shadow: 0 4px 8px 2px rgb(0 0 0);
+  transition-duration: 600ms;
 }
 
-#process-analysis1 img{
-  width: 419.4px;
-  height: 600px;
+.title, .titlew{
+  margin-top: -5rem;
+  color: #202020;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 0.75rem;
 }
 
-#process-analysis2 img{
-  width: 436px;
-  height: 476.6px;
+.description {
+  color: #202020;
+}
+
+.titlew, .descriptionw {
+  color: #FFF;
+}
+
+@media only screen and (min-width: 1000px){
+  #process-analysis1, #process-analysis2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #process-analysis1 {
+    padding: 10rem 20% 2rem 20%;
+  }
+
+  #process-analysis2{
+    padding: 5rem 20% 2rem 20%;
+  }
+
+  #process-analysis1 h3, #process-analysis2 h3{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  #process-analysis1 .content-imageset, #process-analysis2 .content-imageset{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  #process-analysis1 .content-imageset-sub, #process-analysis2 .content-imageset-sub{
+    margin: 1.5rem;
+  }
+
+  #process-analysis1 img{
+    width: 419.4px;
+    height: 600px;
+  }
+
+  #process-analysis2 img{
+    width: 436px;
+    height: 476.6px;
+  }
+}
+
+@media only screen and (max-width: 999px){
+
 }
 
 /* contact page for PC */
@@ -604,6 +742,18 @@ div {
     bottom: -11.5rem;
   }
 
+  #footerworks {
+    bottom: -205%;
+  }
+
+  #footeranalysis1 {
+
+  }
+
+  #footeranalysis2 {
+
+  }
+
   .copyright {
     margin-top: 0.75em;
     padding-top: 0.75em;
@@ -633,6 +783,18 @@ div {
     width: 100%;
     bottom: -26rem;
     overflow: hidden;
+  }
+
+  #footerworks {
+
+  }
+
+  #footeranalysis1 {
+
+  }
+
+  #footeranalysis2 {
+
   }
 
   #footercontact{
