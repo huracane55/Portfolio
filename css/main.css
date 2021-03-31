@@ -374,6 +374,64 @@ div {
   }
 }
 
+/* gallery page for PC */
+@media only screen and (min-width: 1000px){
+
+  .works-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .works-header{
+    position: absolute;
+    margin-top: 6rem;
+  }
+
+  .works-content {
+    margin-top: 12.5rem;
+    padding: 0 3rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  #year-line {
+    height: 5px;
+    width: 8rem;
+    border-top: 3px solid #D74A3A;
+    margin: -1.25rem 0 1rem 0;
+  }
+
+  .container-2021 {
+    margin-bottom: 5rem;
+  }
+
+  .container-2020 {
+    margin-bottom: 3rem;
+  }
+
+  .works-image{
+    position: relative;
+    width: 20%;
+    padding: 0 0.5rem;
+  }
+
+  .works-image img{
+    height: 35rem;
+    object-fit: cover;
+  }
+}
+
+/* gallery page for mobile */
+@media only screen and (max-width: 999px){
+
+}
+
 #process-analysis1, #process-analysis2 {
   display: flex;
   flex-direction: column;
@@ -440,6 +498,10 @@ div {
     padding-bottom: 0.75rem;
   }
 
+  #contentsplit {
+    margin-top: 0.75rem;
+  }
+
   .contact-text-email {
     font-size: 22px;
     font-weight: bold;
@@ -489,6 +551,10 @@ div {
     padding-bottom: 0.75rem;
   }
 
+  #contentsplit {
+    margin-top: 0.75rem;
+  }
+
   .contact-text-email {
     font-size: 22px;
     font-weight: bold;
@@ -498,7 +564,6 @@ div {
 
   .contact-text ul{
     list-style: none;
-
   }
 
   .contact-text li{
