@@ -504,7 +504,6 @@ div {
 
   .works-image{
     position: relative;
-
     padding: 0 0.5rem;
   }
 
@@ -520,7 +519,7 @@ div {
   }
 }
 
-
+/* process analyses pages universal */
 .process-button{
   margin: 3rem;
   overflow: hidden;
@@ -548,7 +547,7 @@ div {
   transition-duration: 600ms;
 }
 
-.title, .titlew{
+.process-title, .process-titlew, .process-title, .process-titlew{
   margin-top: -5rem;
   color: #202020;
   font-family: 'Montserrat', sans-serif;
@@ -556,14 +555,24 @@ div {
   margin-bottom: 0.75rem;
 }
 
-.description {
+.process-description {
   color: #202020;
 }
 
-.titlew, .descriptionw {
+.process-titlew, .process-descriptionw {
   color: #FFF;
 }
 
+#process-analysis1 p, #process-analysis2 p {
+  letter-spacing: 1px;
+}
+
+#process-analysis1 h4, #process-analysis2 h4 {
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+/* process analyses pages for PC */
 @media only screen and (min-width: 1000px){
   #process-analysis1, #process-analysis2 {
     display: flex;
@@ -571,17 +580,19 @@ div {
     align-content: center;
   }
 
-  #process-analysis1 {
+  #process-analysis1, #process-analysis2 {
     padding: 10rem 20% 2rem 20%;
   }
 
-  #process-analysis2{
-    padding: 5rem 20% 2rem 20%;
+  #process-analysis1 h2, #process-analysis2 h2 {
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-bottom: 3rem;
   }
 
-  #process-analysis1 h3, #process-analysis2 h3{
-    text-align: center;
-    margin-bottom: 3rem;
+  #process-analysis1 h3, #process-analysis2 h3 {
+    font-size: 22px;
+    letter-spacing: 0.15rem;
   }
 
   #process-analysis1 .content-imageset, #process-analysis2 .content-imageset{
@@ -607,7 +618,38 @@ div {
   }
 }
 
+/* process analyses pages for mobile */
 @media only screen and (max-width: 999px){
+  #process-analysis1, #process-analysis2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #process-analysis1, #process-analysis2 {
+    padding-top: 10rem;
+  }
+
+  #process-analysis1 h2, #process-analysis2 h2 {
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  #process-analysis1 h3, #process-analysis2 h3 {
+    font-size: 22px;
+    letter-spacing: 0.15rem;
+  }
+
+  #process-analysis1 .content-imageset, #process-analysis2 .content-imageset{
+    width: auto;
+    display: inline-block;
+
+  }
+  #process-analysis1 .content-imageset img, #process-analysis2 .content-imageset img{
+    width: 100%;
+    height: auto;
+  }
 
 }
 
@@ -743,15 +785,13 @@ div {
   }
 
   #footerworks {
+    position: relative;
     bottom: -205%;
   }
 
-  #footeranalysis1 {
-
-  }
-
-  #footeranalysis2 {
-
+  #footeranalysis1, #footeranalysis2 {
+    position: relative;
+    bottom: -455%;
   }
 
   .copyright {
@@ -785,16 +825,8 @@ div {
     overflow: hidden;
   }
 
-  #footerworks {
-
-  }
-
-  #footeranalysis1 {
-
-  }
-
-  #footeranalysis2 {
-
+  #footeranalysis1, #footeranalysis2 {
+    margin-top: 2rem;
   }
 
   #footercontact{
