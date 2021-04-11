@@ -76,7 +76,9 @@ div {
     padding: 2em 1em;
     text-decoration: none;
     color: #333;
+    -webkit-transitio: all .2s;
     transition: all .2s;
+    transform: translateZ(0);
   }
   nav li a:hover {
     background-color: white;
@@ -390,7 +392,7 @@ div {
 
 @keyframes worksLoad {
   0% {
-    transform: translateY(-20%);
+    transform: translateY(-10%);
     opacity: 0;
   }
   100% {
@@ -458,121 +460,136 @@ div {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 0s;
+    transform: translateZ(0);
+    animation-delay: 500ms;
   }
   #keqing1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 0.25s;
+    transform: translateZ(0);
+    animation-delay: 750ms;
   }
   #roboco2 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 0.5s;
+    transform: translateZ(0);
+    animation-delay: 1000ms;
   }
   #matsuri5 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 0.75s;
+    transform: translateZ(0);
+    animation-delay: 1250ms;
   }
   #ayame3 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 1s;
+    transform: translateZ(0);
+    animation-delay: 1500ms;
   }
   #towa2 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 1.25s;
+    transform: translateZ(0);
+    animation-delay: 1750ms;
   }
   #lumine1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 1.5s;
+    transform: translateZ(0);
+    animation-delay: 2000ms;
   }
   #noelle1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 1.75s;
+    transform: translateZ(0);
+    animation-delay: 2250ms;
   }
   #kanata4 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 2s;
+    transform: translateZ(0);
+    animation-delay: 2500ms;
   }
   #watame3 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 2.25s;
+    transform: translateZ(0);
+    animation-delay: 2750ms;
   }
   #mano1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 2.5s;
+    transform: translateZ(0);
+    animation-delay: 3000ms;
   }
   #marine1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 2.75s;
+    transform: translateZ(0);
+    animation-delay: 3250ms;
   }
   #frostnova1 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 3s;
+    transform: translateZ(0);
+    animation-delay: 3500ms;
   }
   #watame2 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 3.25s;
+    transform: translateZ(0);
+    animation-delay: 3750ms;
   }
   #matsuri3 {
     animation-name: worksLoad;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
-    animation-delay: 3.5s;
+    transform: translateZ(0);
+    animation-delay: 4000ms;
   }
 }
 

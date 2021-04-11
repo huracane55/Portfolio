@@ -87,8 +87,13 @@ div {
     padding: 2em 1em;
     text-decoration: none;
     color: $dark-grey-alt;
-    -webkit-transition: all .2s;
+    -webkit-transitio: all .2s;
     transition: all .2s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
   }
 
   nav li a:hover {
@@ -438,7 +443,7 @@ div {
 
 @keyframes worksLoad{
     0% {
-        transform: translateY(-20%);
+        transform: translateY(-10%);
         opacity: 0;
     }
     100% {
@@ -451,8 +456,13 @@ div {
   animation-name: worksLoad;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-fill-mode: backwards;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 /* gallery page general*/
@@ -520,77 +530,77 @@ div {
 
   #noelle2{
     @include image-transform;
-    animation-delay: 0s;
+    animation-delay: 500ms;
   }
 
   #keqing1{
     @include image-transform;
-    animation-delay: 0.25s;
+    animation-delay: 750ms;
   }
 
   #roboco2 {
     @include image-transform;
-    animation-delay: 0.5s;
+    animation-delay: 1000ms;
   }
 
   #matsuri5{
     @include image-transform;
-    animation-delay: 0.75s;
+    animation-delay: 1250ms;
   }
 
   #ayame3{
     @include image-transform;
-    animation-delay: 1s;
+    animation-delay: 1500ms;
   }
 
   #towa2{
     @include image-transform;
-    animation-delay: 1.25s;
+    animation-delay: 1750ms;
   }
 
   #lumine1{
     @include image-transform;
-    animation-delay: 1.5s;
+    animation-delay: 2000ms;
   }
 
   #noelle1{
     @include image-transform;
-    animation-delay: 1.75s;
+    animation-delay: 2250ms;
   }
 
   #kanata4{
     @include image-transform;
-    animation-delay: 2s;
+    animation-delay: 2500ms;
   }
 
   #watame3{
     @include image-transform;
-    animation-delay: 2.25s;
+    animation-delay: 2750ms;
   }
 
   #mano1{
     @include image-transform;
-    animation-delay: 2.5s;
+    animation-delay: 3000ms;
   }
 
   #marine1{
     @include image-transform;
-    animation-delay: 2.75s;
+    animation-delay: 3250ms;
   }
 
   #frostnova1{
     @include image-transform;
-    animation-delay: 3s;
+    animation-delay: 3500ms;
   }
 
   #watame2{
     @include image-transform;
-    animation-delay: 3.25s;
+    animation-delay: 3750ms;
   }
 
   #matsuri3{
     @include image-transform;
-    animation-delay: 3.5s;
+    animation-delay: 4000ms;
   }
 }
 
