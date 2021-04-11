@@ -1,4 +1,11 @@
-
+$lighter-grey: #EBEBEB;
+$light-grey: #E4E4E4;
+$dark-grey: #202020;
+$dark-grey-alt: #333;
+$dark-grey-redalt: #2F2E2E;
+$murky-red: #D74A3A;
+$dark-red: #B93B2D;
+$white-alt: #F6F6F6;
 
 * {
   box-sizing: border-box;
@@ -9,8 +16,8 @@ html{
 }
 
 body {
-  background-color: #E4E4E4;
-  color: #202020;
+  background-color: $light-grey;
+  color: $dark-grey;
   font-family: 'Montserrat', sans-serif;
   min-height: 100%;
   overflow-x: hidden;
@@ -52,9 +59,9 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #EBEBEB;
+    background-color: $lighter-grey;
     position: fixed;
-    border-bottom: 3px solid  #D74A3A;
+    border-bottom: 3px solid  $murky-red;
     width: 100%;
     margin-top: -0.5rem;
     margin-left: -0.5rem;
@@ -78,7 +85,7 @@ div {
     display: inline-block;
     padding: 2em 1em;
     text-decoration: none;
-    color: #333;
+    color: $dark-grey-alt;
     -webkit-transition: all .2s;
     transition: all .2s;
   }
@@ -95,9 +102,9 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #EBEBEB;
+    background-color: $lighter-grey;
     position: fixed;
-    border-bottom: 3px solid  #D74A3A;
+    border-bottom: 3px solid  $murky-red;
     width: 100%;
     margin-top: -0.5rem;
     margin-left: -0.5rem;
@@ -118,7 +125,7 @@ div {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
-    color: #333;
+    color: $dark-grey-alt;
     -webkit-transition: all .2s;
     transition: all .2s;
     left:0;
@@ -126,7 +133,7 @@ div {
   }
 
   nav li a:hover {
-    border-left: 2px solid #D74A3A;
+    border-left: 2px solid $murky-red;
     background-color: white;
 
   }
@@ -165,9 +172,9 @@ div {
   }
 
   .front-text {
-    background-color: #D74A3A;
-    border-bottom: 3px solid #2F2E2E;
-    border-right: 3px solid #2F2E2E;
+    background-color: $murky-red;
+    border-bottom: 3px solid $dark-grey-redalt;
+    border-right: 3px solid $dark-grey-redalt;
     position: absolute;
     top: 70%;
     left:0;
@@ -191,9 +198,7 @@ div {
 
   .content-container {
     position: absolute;
-    border-top: 4px solid #D74A3A;
-    border-bottom: 4px solid #D74A3A;
-    background-color: #333;
+    background-color: $murky-red;
     padding: 50px 80px;
     text-align: center;
     margin: auto;
@@ -205,17 +210,7 @@ div {
   .content-featured {
     display: flex;
     justify-content: center;
-    vertical-align: top;
-  }
-
-  .content-featured-images {
-    width: 20%;
-  }
-
-  .content-featured-images:hover{
-    opacity: 0.7;
-    transition: 450ms;
-    cursor: pointer;
+    vertical-align: top
   }
 
   .content-featured-images img{
@@ -251,9 +246,9 @@ div {
   }
 
   .front-text {
-    background-color: #D74A3A;
-    border-bottom: 3px solid #2F2E2E;
-    border-right: 3px solid #2F2E2E;
+    background-color: $murky-red;
+    border-bottom: 3px solid $dark-grey-redalt;
+    border-right: 3px solid $dark-grey-redalt;
     position: absolute;
     top: 50%;
     left:0;
@@ -278,9 +273,7 @@ div {
   .content-container {
     display: block;
     position: absolute;
-    border-top: 4px solid #D74A3A;
-    border-bottom: 4px solid #D74A3A;
-    background-color: #333;
+    background-color: $murky-red;
     padding: 10px;
     text-align: center;
     margin: auto;
@@ -334,7 +327,7 @@ div {
   #profile-line {
     height: 5px;
     width: 50rem;
-    border-top: 3px solid #D74A3A;
+    border-top: 3px solid $murky-red;
     margin-bottom: 1rem;
     margin-top: -0.75rem;
   }
@@ -409,7 +402,7 @@ div {
   #profile-line {
     height: 5px;
     width: 18rem;
-    border-top: 3px solid #D74A3A;
+    border-top: 3px solid $murky-red;
     margin-bottom: 1rem;
     margin-top: -0.75rem;
   }
@@ -426,26 +419,6 @@ div {
 
   .about-me-text-content-stats {
     font-size: 18px;
-  }
-
-  .social-media {
-    display: flex;
-    position: relative;
-    width: 100%;
-    bottom: -70rem;
-    left: 15%;
-  }
-
-  .social-media li{
-    list-style: none;
-  }
-
-  .social-media li:hover{
-    opacity: 0.7;
-  }
-
-  .sm-pixiv{
-    padding: 0 3rem;
   }
 }
 
@@ -477,7 +450,7 @@ div {
   #year-line {
     height: 5px;
     width: 8rem;
-    border-top: 3px solid #D74A3A;
+    border-top: 3px solid $murky-red;
     margin: -1.25rem 0 1rem 0;
   }
 
@@ -548,7 +521,7 @@ div {
   #year-line {
     height: 5px;
     width: 12rem;
-    border-top: 3px solid #D74A3A;
+    border-top: 3px solid $murky-red;
     margin: -0.5rem 0 1.25rem 4rem;
   }
 
@@ -603,14 +576,14 @@ div {
 
 .process-title, .process-titlew, .process-title, .process-titlew{
   margin-top: -5rem;
-  color: #202020;
+  color: $dark-grey;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin-bottom: 0.75rem;
 }
 
 .process-description {
-  color: #202020;
+  color: $dark-grey;
 }
 
 .process-titlew, .process-descriptionw {
@@ -740,7 +713,7 @@ div {
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #B93B2D;
+    color: $dark-red;
   }
 
   .contact-text ul{
@@ -749,7 +722,7 @@ div {
 
   .contact-text li{
     padding: 0.15rem;
-    color: #B93B2D;
+    color: $dark-red;
     letter-spacing: 0.5px;
     margin-left: -2.25rem;
   }
@@ -793,7 +766,7 @@ div {
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #B93B2D;
+    color: $dark-red;
   }
 
   .contact-text ul{
@@ -802,7 +775,7 @@ div {
 
   .contact-text li{
     padding: 0.15rem;
-    color: #B93B2D;
+    color: $dark-red;
     letter-spacing: 0.5px;
     margin-left: -2.25rem;
   }
@@ -849,7 +822,7 @@ div {
     padding-top: 0.75em;
     margin-bottom: -1.25em;
     padding-bottom: -1.25em;
-    border-top: 5px solid #F6F6F6;
+    border-top: 5px solid $dark-red;
     text-align: center;
   }
 }
@@ -863,7 +836,7 @@ div {
   .footer-container-home {
     position: relative;
     width: 100%;
-    bottom: -45rem;
+    bottom: -25.5rem;
   }
 
   #footerabout{
@@ -871,7 +844,7 @@ div {
     padding: 2rem 0;
     margin-left: -0.5rem;
     width: 100%;
-    bottom: -32rem;
+    bottom: -26rem;
     overflow: hidden;
   }
 
@@ -893,7 +866,7 @@ div {
     padding-top: 0.75em;
     margin-bottom: -1.25em;
     padding-bottom: -1.25em;
-    border-top: 5px solid #F6F6F6;
+    border-top: 5px solid $dark-red;
     text-align: center;
   }
 }
