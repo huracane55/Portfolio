@@ -133,6 +133,7 @@ div {
     display: flex;
     justify-content: center;
   }
+
   .home-page-image {
     z-index: -1;
     opacity: 0.9;
@@ -185,6 +186,7 @@ div {
     margin: auto;
     width: 100%;
     top: 120%;
+    left: 0;
     color: white;
   }
 

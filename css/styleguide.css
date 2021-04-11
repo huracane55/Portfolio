@@ -40,21 +40,26 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #F6F6F6;
+  background-color: #EBEBEB;
   position: fixed;
+  border-bottom: 3px solid  #D74A3A;
   width: 100%;
-  margin: -0.5rem;
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+  z-index: 1;
 }
 
 nav li {
   display: inline-block;
   text-transform: uppercase;
+  letter-spacing: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 nav li a {
@@ -70,6 +75,35 @@ nav li a:hover {
   background-color:white;
 }
 
+@media only screen and (max-width:999px){
+  nav li {
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: auto;
+  }
+
+  nav li a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    left:0;
+    right: 0;
+  }
+
+  nav li a:hover {
+    border-left: 2px solid #D74A3A;
+    background-color: white;
+  }
+
+}
+
 .process-analysis {
   display: flex;
 }
@@ -82,15 +116,8 @@ nav li a:hover {
 .process-image img {
   width: 20rem;
   height: 20rem;
-  opacity: 0.6;
+  opacity: 0.85;
 }
-
-/*use for gallery images (below snippet)
-.process-image img:hover{
-  opacity: 1;
-  transition-duration: 600ms;
-}
-*/
 
 .process-text {
   position: absolute;
@@ -121,7 +148,22 @@ nav li a:hover {
 .titlew, .descriptionw {
   color: #FFF;
 }
+@media only screen and (max-width:999px){
+  h1{
+    margin-left: -2rem;
+    margin-top: 5rem;
+  }
 
+  .element{
+    margin-left: -2rem;
+    margin-top: 4rem;
+  }
+
+  .process-analysis {
+    display: block;
+    left: 0;
+  }
+}
 
 footer {
   display: block;
@@ -180,13 +222,24 @@ footer {
 }
 
 .nav-template {
-  display: block;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
-  background-color: #F6F6F6;
+  background-color: #EBEBEB;
+  border-bottom: 3px solid  #D74A3A;
   width: 100%;
-  margin: -0.5rem;
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+@media only screen and (max-width: 999px){
+  .nav-template {
+    flex-direction: row;
+    background-color: #EBEBEB;
+    border-bottom: 3px solid  #D74A3A;
+    width: 100%;
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+  }
 }
 
 .nav-template:hover{
