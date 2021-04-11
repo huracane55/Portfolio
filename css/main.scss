@@ -204,8 +204,8 @@ div {
 
   .content-featured {
     display: flex;
-
     vertical-align: top;
+    margin-left: -2.5rem;
   }
 
   .content-featured-images {
@@ -220,6 +220,7 @@ div {
 
   .content-featured-images img{
     padding: 2rem;
+
     width: 350px;
     height: 500px;
     object-fit: cover;
@@ -878,9 +879,9 @@ footer {
     overflow: hidden;
   }
 
-  .footer-container-home {
+  #footerindex {
     position: relative;
-    bottom: -15.5rem;
+    bottom: -16.5rem;
   }
 
   #footerworks {
@@ -904,7 +905,7 @@ footer {
 
 /* footers page for mobile */
 @media only screen and (max-width: 999px){
-  .footer-container-home {
+  #footerindex {
     position: relative;
     width: 100%;
     bottom: -45rem;
