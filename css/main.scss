@@ -529,6 +529,11 @@ div {
     justify-content: center;
   }
 
+  #watame4
+    @include image-transform;
+    animation-delay: 500ms;
+  }
+
   #noelle2{
     @include image-transform;
     animation-delay: 500ms;
