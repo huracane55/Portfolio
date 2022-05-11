@@ -521,7 +521,7 @@ div {
     position: relative;
     width: 20%;
     padding: 0 0.5rem;
-        object-position: 80% 80%;
+
   }
 
   .works-image img{
@@ -535,85 +535,104 @@ div {
     justify-content: center;
   }
 
-  #watame4
+
+  #amber1{
     @include image-transform;
     animation-delay: 500ms;
+    object-position: 80% 0%;
   }
 
-  #noelle2{
-    @include image-transform;
-    animation-delay: 500ms;
-  }
-
-  #keqing1{
+  #ayaka1{
     @include image-transform;
     animation-delay: 750ms;
+    object-position: 32% 0%;
   }
 
-  #roboco2 {
+  #lumine2{
     @include image-transform;
     animation-delay: 1000ms;
   }
 
-  #matsuri5{
+  #fubuki3{
     @include image-transform;
     animation-delay: 1250ms;
   }
 
-  #ayame3{
+  #rio1{
     @include image-transform;
     animation-delay: 1500ms;
   }
 
-  #towa2{
+  #fubuki2{
     @include image-transform;
     animation-delay: 1750ms;
   }
 
-  #lumine1{
+  #ayame4{
     @include image-transform;
     animation-delay: 2000ms;
   }
 
-  #noelle1{
+  #kokomi1{
     @include image-transform;
     animation-delay: 2250ms;
   }
 
-  #kanata4{
+  #towa4{
     @include image-transform;
     animation-delay: 2500ms;
+    object-position: 15% 0%;
   }
 
-  #watame3{
+  #keqing2{
     @include image-transform;
     animation-delay: 2750ms;
+    object-position: 92% 0%;
   }
 
-  #mano1{
+  #hutao1{
     @include image-transform;
     animation-delay: 3000ms;
   }
 
-  #marine1{
+  #yae1{
     @include image-transform;
     animation-delay: 3250ms;
   }
 
-  #frostnova1{
+  #mumei1{
     @include image-transform;
     animation-delay: 3500ms;
+    object-position: 20% 0%;
   }
 
-  #watame2{
+  #fubuki1{
     @include image-transform;
     animation-delay: 3750ms;
   }
 
-  #matsuri3{
+  #watame4{
     @include image-transform;
     animation-delay: 4000ms;
+    object-position: 13% 0%;
   }
+
+  #frostnova1{
+    object-position: 75% 0%;
+  }
+
+  #watame2{
+    object-position: 12% 0%;
+  }
+
+  #amberfront{
+    object-position: 80% 0%;
+  }
+
+  #fubukifront{
+    object-position: 50% 15%;
+  }
+
 }
 
 /* gallery page for mobile */
