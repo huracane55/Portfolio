@@ -477,6 +477,10 @@ div {
   padding: 0 3rem;
 }
 
+.works-image {
+  width: 100px;
+}
+
 .works-image:hover{
   opacity: 0.7;
   transition: 450ms;
@@ -517,11 +521,13 @@ div {
     position: relative;
     width: 20%;
     padding: 0 0.5rem;
+        object-position: 80% 80%;
   }
 
   .works-image img{
     height: 35rem;
     object-fit: cover;
+
   }
 
   .process-container {
