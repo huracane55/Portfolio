@@ -41,6 +41,11 @@ h4 {
   font-size: 14px;
 }
 
+h5 {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
 p {
   width: 100%;
   padding: 0.5rem;
@@ -58,7 +63,7 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: $lighter-grey;
+  background-color: $light-grey;
   position: fixed;
   border-bottom: 3px solid  $murky-red;
   width: 100%;
@@ -509,12 +514,40 @@ div {
     margin: -1.25rem 0 1rem 0;
   }
 
+  .otherP-line {
+    height: 5px;
+    width: 18rem;
+    border-top: 3px solid $murky-red;
+    margin: -1.25rem 0 1rem 0;
+  }
+
+  .container-2022 {
+    margin-bottom: 5rem;
+  }
+
   .container-2021 {
     margin-bottom: 5rem;
   }
 
   .container-2020 {
     margin-bottom: 3rem;
+  }
+
+  .otherP-image{
+    position: relative;
+    width: 50%;
+    padding: 1.5rem;
+  }
+
+  .otherP-image:hover{
+    opacity: 0.7;
+    transition: 450ms;
+    cursor: pointer;
+
+  }
+
+  .otherP{
+    justify-content: left;
   }
 
   .works-image{
@@ -524,7 +557,7 @@ div {
 
   }
 
-  .works-image img{
+  .works-image img, {
     height: 35rem;
     object-fit: cover;
 
