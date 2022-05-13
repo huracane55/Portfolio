@@ -34,11 +34,13 @@
     </nav>
   </div>
 
-  <footer id="footer">
-    <div class="footer-container" id="footerworks">
-      <div class="copyright">
-        <p>Copyright ©2022 ElpheArt All Rights Reserved</p>
+    <footer id="footer">
+      <div class="footer-container" id="footerworks">
+        <div class="copyright">
+          <p>Copyright ©2022 ElpheArt All Rights Reserved</p>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
+
+</html>
